@@ -2,51 +2,29 @@
 <html>
   <head>
     <title>Career Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <style>
-      h1{
-        font-size: 40px;
-        font-family: Roboto;
-        font-Weight: normal;
-        color: rgb(100,100,100);
-        text-align: center;
-      }
-
-      #banner {
-        width: 100%;
-        height: 360px;
-        object-fit: fill;
-      }
-
-      h2{
-        ont-size: 40px;
-        font-family: Roboto;
-        font-Weight: normal;
-        color: rgb(100,100,100);
-        text-align: center;
-      }
-
-      .class="bodytext"{
-        font-family: Roboto;
-        color: rgb(80, 80, 80);;
-      }
-
-      #container{
-        max-width: 720px;
-        margin: 0 auto 0 auto;
+      #banner{
+        height: 555px;
+        width:100%;
+        object-fit: cover;
       }
     </style>
+    
   </head>
   <body>
-    <div id="container">
-      <h1>Careers</h1>
-      <img id="banner" src="https://website-using-flask.omprakashdhakar.repl.co/static/banner.jpg" height="320">
-      <h2>About Us</h2>
-      <p class="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <h2>Open Positions</h2>
-      <p class="bodytext">TODO-various open postitons</p>
-      <div style="text-align:center;">
-      <button>Contsct Us</button>
-        <p>Copyright 2022</p>
+    <div class="container mt-2 mb-4">
+      <h1 class="text-center mt-2 mb-4">Careers</h1>
+      <img class="img-fluid" id="banner" src="https://website-using-flask.omprakashdhakar.repl.co/static/banner.jpg" height="320">
+      <h2 class='text-center mt-2 mb-4'>About Us</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2 class='text-center mt-2 mb-4'>Open Positions</h2>
+      <p>TODO-various open postitons</p>
+      <div class="text-center">
+      <button class="btn btn-primary btn-lg">Contsct Us</button>
+        <p class="mt-4 mb-2">Copyright 2022</p>
       </div>      
     </div>
   </body>
