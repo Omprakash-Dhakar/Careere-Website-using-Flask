@@ -33,7 +33,7 @@ JOBS=[
 def hello_google():
   return render_template("home.html",
                         jobs=JOBS,
-                        company_name="Google")
+                        company_name="Divyan")
 
 @app.route("/api/career")
 def list_jobs():
